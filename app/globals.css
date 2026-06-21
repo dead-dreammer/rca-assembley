@@ -3,10 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --rca-purple: #534AB7;
-  --rca-purple-light: #EEEDFE;
-  --rca-purple-mid: #7F77DD;
-  --rca-purple-dark: #3C3489;
+  --rca-purple: #C0501A;
+  --rca-purple-light: #FEF3EC;
+  --rca-purple-mid: #D4773A;
+  --rca-purple-dark: #7A2E0E;
 }
 
 @theme inline {

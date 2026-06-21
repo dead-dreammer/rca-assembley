@@ -97,17 +97,17 @@ export default function EventsPage() {
             reference="Psalm 118:24"
             variant="sidebar"
           />
-          <div className="bg-[#EEEDFE] rounded-xl p-4">
-            <h3 className="text-sm font-medium text-[#3C3489] mb-2">Stay updated</h3>
-            <p className="text-xs text-[#534AB7] leading-relaxed mb-3">
+          <div className="bg-[#FEF3EC] rounded-xl p-4">
+            <h3 className="text-sm font-medium text-[#7A2E0E] mb-2">Stay updated</h3>
+            <p className="text-xs text-[#C0501A] leading-relaxed mb-3">
               Sign up to receive event announcements directly in your inbox.
             </p>
             <input
               type="email"
               placeholder="Your email"
-              className="w-full text-xs border border-[#AFA9EC] rounded-lg px-3 py-2 mb-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#534AB7]"
+              className="w-full text-xs border border-[#E8946A] rounded-lg px-3 py-2 mb-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#C0501A]"
             />
-            <button className="w-full bg-[#534AB7] text-white text-xs py-2 rounded-lg hover:bg-[#3C3489] transition-colors">
+            <button className="w-full bg-[#C0501A] text-white text-xs py-2 rounded-lg hover:bg-[#7A2E0E] transition-colors">
               Subscribe
             </button>
           </div>

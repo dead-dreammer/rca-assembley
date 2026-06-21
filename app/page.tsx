@@ -74,7 +74,7 @@ export default function Home() {
   return (
     <div>
       <section className="max-w-6xl mx-auto px-6 py-20 text-center">
-        <span className="inline-block bg-[#EEEDFE] text-[#534AB7] text-xs font-medium px-3 py-1 rounded-full mb-5">
+        <span className="inline-block bg-[#FEF3EC] text-[#C0501A] text-xs font-medium px-3 py-1 rounded-full mb-5">
           Welcome to RCA
         </span>
         <h1 className="text-4xl md:text-5xl font-medium text-gray-900 leading-tight mb-5">
@@ -89,7 +89,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-3 justify-center">
           <Link
             href="/services"
-            className="bg-[#534AB7] text-white px-6 py-2.5 rounded-lg text-sm hover:bg-[#3C3489] transition-colors"
+            className="bg-[#C0501A] text-white px-6 py-2.5 rounded-lg text-sm hover:bg-[#7A2E0E] transition-colors"
           >
             View services
           </Link>
@@ -133,7 +133,7 @@ export default function Home() {
             <h2 className="text-xl font-medium text-gray-900 mb-1">What&apos;s coming up</h2>
             <p className="text-sm text-gray-400">Events and community gatherings</p>
           </div>
-          <Link href="/events" className="text-sm text-[#534AB7] hover:underline">
+          <Link href="/events" className="text-sm text-[#C0501A] hover:underline">
             All events →
           </Link>
         </div>
@@ -144,15 +144,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#534AB7] text-white py-16 px-6 text-center">
+      <section className="bg-[#C0501A] text-white py-16 px-6 text-center">
         <h2 className="text-2xl font-medium mb-3">Need prayer?</h2>
-        <p className="text-[#AFA9EC] max-w-md mx-auto mb-6 text-sm leading-relaxed">
+        <p className="text-[#E8946A] max-w-md mx-auto mb-6 text-sm leading-relaxed">
           Our pastoral team is here for you. Submit a prayer request and we will lift you up in
           prayer — privately or with the congregation.
         </p>
         <Link
           href="/prayer"
-          className="inline-block bg-white text-[#534AB7] font-medium px-6 py-2.5 rounded-lg text-sm hover:bg-[#EEEDFE] transition-colors"
+          className="inline-block bg-white text-[#C0501A] font-medium px-6 py-2.5 rounded-lg text-sm hover:bg-[#FEF3EC] transition-colors"
         >
           Submit a prayer request
         </Link>

@@ -12,27 +12,27 @@ interface EventCardProps {
 }
 
 const tagStyles = {
-  purple: "bg-[#EEEDFE] text-[#534AB7]",
-  teal: "bg-[#E1F5EE] text-[#0F6E56]",
-  amber: "bg-[#FAEEDA] text-[#854F0B]",
+  purple: "bg-[#FEF3EC] text-[#C0501A]",
+  teal: "bg-[#FDF0E6] text-[#7A2E0E]",
+  amber: "bg-[#FEEDE0] text-[#A03010]",
 };
 
 const dateBg = {
-  purple: "bg-[#EEEDFE]",
-  teal: "bg-[#E1F5EE]",
-  amber: "bg-[#FAEEDA]",
+  purple: "bg-[#FEF3EC]",
+  teal: "bg-[#FDF0E6]",
+  amber: "bg-[#FEEDE0]",
 };
 
 const dateText = {
-  purple: "text-[#534AB7]",
-  teal: "text-[#0F6E56]",
-  amber: "text-[#854F0B]",
+  purple: "text-[#C0501A]",
+  teal: "text-[#7A2E0E]",
+  amber: "text-[#A03010]",
 };
 
 const dateSubText = {
-  purple: "text-[#7F77DD]",
-  teal: "text-[#1D9E75]",
-  amber: "text-[#BA7517]",
+  purple: "text-[#D4773A]",
+  teal: "text-[#C0501A]",
+  amber: "text-[#D4622A]",
 };
 
 export default function EventCard({
@@ -61,7 +61,7 @@ export default function EventCard({
       </p>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="text-xs text-[#534AB7] hover:underline self-start"
+        className="text-xs text-[#C0501A] hover:underline self-start"
       >
         {expanded ? "Show less" : "Read more"}
       </button>

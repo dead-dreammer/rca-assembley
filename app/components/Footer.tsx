@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2 mb-3">
-            <span className="w-7 h-7 rounded-md bg-[#534AB7] flex items-center justify-center text-white text-xs font-bold">
+            <span className="w-7 h-7 rounded-md bg-[#C0501A] flex items-center justify-center text-white text-xs font-bold">
               ✝
             </span>
             <span className="font-medium text-sm">Rydalvale Church Assembly</span>
@@ -14,7 +14,7 @@ export default function Footer() {
           <p className="text-sm text-gray-500 leading-relaxed">
             A welcoming community of faith, hope, and love in Christ.
           </p>
-          <blockquote className="mt-4 text-xs text-[#534AB7] italic border-l-2 border-[#7F77DD] pl-3">
+          <blockquote className="mt-4 text-xs text-[#C0501A] italic border-l-2 border-[#D4773A] pl-3">
             "For where two or three gather in my name, there am I with them." — Matt 18:20
           </blockquote>
         </div>
@@ -39,7 +39,7 @@ export default function Footer() {
               { href: "/about", label: "About us" },
             ].map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="text-gray-500 hover:text-[#534AB7] transition-colors">
+                <Link href={l.href} className="text-gray-500 hover:text-[#C0501A] transition-colors">
                   {l.label}
                 </Link>
               </li>
@@ -51,16 +51,16 @@ export default function Footer() {
           <h4 className="text-sm font-medium mb-3">Connect</h4>
           <ul className="space-y-2 text-sm text-gray-500">
             <li>
-              <a href="#" className="hover:text-[#534AB7] transition-colors">Facebook</a>
+              <a href="#" className="hover:text-[#C0501A] transition-colors">Facebook</a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#534AB7] transition-colors">YouTube</a>
+              <a href="#" className="hover:text-[#C0501A] transition-colors">YouTube</a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#534AB7] transition-colors">Instagram</a>
+              <a href="#" className="hover:text-[#C0501A] transition-colors">Instagram</a>
             </li>
             <li>
-              <a href="mailto:info@rcachurch.org" className="hover:text-[#534AB7] transition-colors">
+              <a href="mailto:info@rcachurch.org" className="hover:text-[#C0501A] transition-colors">
                 info@rcachurch.org
               </a>
             </li>

@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 font-medium text-gray-900">
-          <span className="w-8 h-8 rounded-lg bg-[#534AB7] flex items-center justify-center text-white text-sm font-bold">
+          <span className="w-8 h-8 rounded-lg bg-[#C0501A] flex items-center justify-center text-white text-sm font-bold">
             ✝
           </span>
           <span className="hidden sm:block">Rydalvale Church Assembly</span>
@@ -34,7 +34,7 @@ export default function Navbar() {
               href={l.href}
               className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
                 pathname === l.href
-                  ? "bg-[#EEEDFE] text-[#534AB7] font-medium"
+                  ? "bg-[#FEF3EC] text-[#C0501A] font-medium"
                   : "text-gray-500 hover:text-gray-900 hover:bg-gray-50"
               }`}
             >
@@ -45,7 +45,7 @@ export default function Navbar() {
 
         <Link
           href="/prayer"
-          className="hidden md:inline-flex items-center gap-1.5 bg-[#534AB7] text-white text-sm px-4 py-2 rounded-lg hover:bg-[#3C3489] transition-colors"
+          className="hidden md:inline-flex items-center gap-1.5 bg-[#C0501A] text-white text-sm px-4 py-2 rounded-lg hover:bg-[#7A2E0E] transition-colors"
         >
           Give online
         </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className={`px-3 py-2 rounded-lg text-sm ${
                 pathname === l.href
-                  ? "bg-[#EEEDFE] text-[#534AB7] font-medium"
+                  ? "bg-[#FEF3EC] text-[#C0501A] font-medium"
                   : "text-gray-600 hover:bg-gray-50"
               }`}
             >

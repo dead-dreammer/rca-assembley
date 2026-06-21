@@ -6,28 +6,28 @@ const leadership = [
     name: "Pastor David Osei",
     role: "Senior Pastor",
     bio: "David has served Rydalvale Church Assembly for over 15 years, leading with vision, compassion, and a deep love for Scripture.",
-    color: "bg-[#EEEDFE] text-[#534AB7]",
+    color: "bg-[#FEF3EC] text-[#C0501A]",
   },
   {
     initials: "MA",
     name: "Rev. Mary Asante",
     role: "Associate Pastor",
     bio: "Mary oversees congregational care, discipleship programmes, and women's ministry across the church.",
-    color: "bg-[#E1F5EE] text-[#0F6E56]",
+    color: "bg-[#FDF3E8] text-[#8B3A0E]",
   },
   {
     initials: "JK",
     name: "James Kofi",
     role: "Worship Director",
     bio: "James leads our music and creative arts ministry, curating worship experiences that draw people closer to God.",
-    color: "bg-[#FAECE7] text-[#993C1D]",
+    color: "bg-[#FDF0E6] text-[#7A2E0E]",
   },
   {
     initials: "RP",
     name: "Elder Ruth Peters",
     role: "Head of Pastoral Care",
     bio: "Ruth coordinates prayer support, hospital visitation, and grief counselling for the congregation.",
-    color: "bg-[#FAEEDA] text-[#854F0B]",
+    color: "bg-[#FEEDE0] text-[#A03010]",
   },
 ];
 
@@ -94,9 +94,9 @@ export default function AboutPage() {
             A church where every person encounters the living God and finds their place in his story.
           </p>
         </div>
-        <div className="bg-[#EEEDFE] rounded-xl p-6 md:col-span-2">
-          <h3 className="text-base font-medium text-[#3C3489] mb-3">Our beliefs</h3>
-          <p className="text-sm text-[#534AB7] leading-relaxed">
+        <div className="bg-[#FEF3EC] rounded-xl p-6 md:col-span-2">
+          <h3 className="text-base font-medium text-[#7A2E0E] mb-3">Our beliefs</h3>
+          <p className="text-sm text-[#C0501A] leading-relaxed">
             We believe in one God, eternally existent in three persons — Father, Son, and Holy
             Spirit. We believe in the full inspiration and authority of Scripture, the redemptive
             work of Jesus Christ, salvation by grace through faith, the baptism and gifts of the

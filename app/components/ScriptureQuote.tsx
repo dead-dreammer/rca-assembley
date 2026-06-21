@@ -11,28 +11,28 @@ export default function ScriptureQuote({
 }: ScriptureQuoteProps) {
   if (variant === "banner") {
     return (
-      <div className="bg-[#EEEDFE] py-6 px-6 text-center">
-        <p className="text-[#3C3489] italic text-lg max-w-2xl mx-auto leading-relaxed">
+      <div className="bg-[#FEF3EC] py-6 px-6 text-center">
+        <p className="text-[#7A2E0E] italic text-lg max-w-2xl mx-auto leading-relaxed">
           &ldquo;{verse}&rdquo;
         </p>
-        <span className="text-[#534AB7] text-sm font-medium mt-2 block">{reference}</span>
+        <span className="text-[#C0501A] text-sm font-medium mt-2 block">{reference}</span>
       </div>
     );
   }
 
   if (variant === "sidebar") {
     return (
-      <div className="border-l-4 border-[#7F77DD] pl-4 py-2 bg-[#EEEDFE] rounded-r-lg">
-        <p className="text-[#3C3489] italic text-sm leading-relaxed">&ldquo;{verse}&rdquo;</p>
-        <span className="text-[#534AB7] text-xs font-medium mt-1 block">{reference}</span>
+      <div className="border-l-4 border-[#D4773A] pl-4 py-2 bg-[#FEF3EC] rounded-r-lg">
+        <p className="text-[#7A2E0E] italic text-sm leading-relaxed">&ldquo;{verse}&rdquo;</p>
+        <span className="text-[#C0501A] text-xs font-medium mt-1 block">{reference}</span>
       </div>
     );
   }
 
   return (
-    <blockquote className="border-l-2 border-[#7F77DD] pl-4">
+    <blockquote className="border-l-2 border-[#D4773A] pl-4">
       <p className="text-gray-600 italic text-sm leading-relaxed">&ldquo;{verse}&rdquo;</p>
-      <cite className="text-[#534AB7] text-xs font-medium mt-1 block not-italic">{reference}</cite>
+      <cite className="text-[#C0501A] text-xs font-medium mt-1 block not-italic">{reference}</cite>
     </blockquote>
   );
 }

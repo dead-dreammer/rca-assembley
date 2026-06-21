@@ -8,9 +8,9 @@ interface ServiceCardProps {
 }
 
 const tagColors: Record<string, string> = {
-  Sunday: "bg-[#EEEDFE] text-[#534AB7]",
-  Wednesday: "bg-[#E1F5EE] text-[#0F6E56]",
-  Friday: "bg-[#FAEEDA] text-[#854F0B]",
+  Sunday: "bg-[#FEF3EC] text-[#C0501A]",
+  Wednesday: "bg-[#FDF3E8] text-[#8B3A0E]",
+  Friday: "bg-[#FEEDE0] text-[#A03010]",
 };
 
 export default function ServiceCard({

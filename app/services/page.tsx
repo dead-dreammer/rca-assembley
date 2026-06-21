@@ -69,7 +69,7 @@ export default function ServicesPage() {
           </p>
           <Link
             href="/prayer"
-            className="inline-block bg-[#534AB7] text-white text-sm px-5 py-2.5 rounded-lg hover:bg-[#3C3489] transition-colors"
+            className="inline-block bg-[#C0501A] text-white text-sm px-5 py-2.5 rounded-lg hover:bg-[#7A2E0E] transition-colors"
           >
             Get in touch
           </Link>
