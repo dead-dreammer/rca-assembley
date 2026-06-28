@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F0D9C4;
+  --foreground: #2C1A0E;
   --rca-purple: #C0501A;
   --rca-purple-light: #FEF3EC;
   --rca-purple-mid: #D4773A;
@@ -18,8 +18,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0f0f0f;
-    --foreground: #ededed;
+    --background: #D4B49A;
+    --foreground: #2C1A0E;
   }
 }
 
